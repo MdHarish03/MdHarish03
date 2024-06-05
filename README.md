@@ -1,5 +1,6 @@
   public async Task<IEnumerable<IdentityError>> Register(Register register)
   {dd
+  //this is wring
       ApplicationUser.FirstName = register.FirstName;
       ApplicationUser.LastName = register.LastName;
       ApplicationUser.Email = register.Email;
